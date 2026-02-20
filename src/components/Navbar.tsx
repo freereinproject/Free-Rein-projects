@@ -10,6 +10,7 @@ const services = [
   { label: "Ceilings & Roofing", path: "/services/ceilings-roofing" },
   { label: "Electrical & Plumbing", path: "/services/electrical-plumbing" },
   { label: "Kitchen & Built-In Cupboards", path: "/services/kitchen-cupboards" },
+  { label: "Flooring & Decking", path: "/services/flooring-decking" },
   { label: "Windows & Window Coverings", path: "/services/windows-coverings" },
   { label: "Outdoor Fixtures & Fittings", path: "/services/outdoor-fixtures" },
 ];
