@@ -1,4 +1,5 @@
 import ServicePageLayout from "@/components/ServicePageLayout";
+import aiOutdoorHero from "@/assets/ai-outdoor-hero.jpg";
 import outdoorImg from "@/assets/outdoor.jpg";
 
 const related = [
@@ -13,7 +14,7 @@ export default function Outdoor() {
     <ServicePageLayout
       title="Outdoor Fixtures & Fittings"
       subtitle="Outdoor"
-      heroImage={outdoorImg}
+      heroImage={aiOutdoorHero}
       relatedServices={related}
     >
       <div className="max-w-4xl mx-auto">

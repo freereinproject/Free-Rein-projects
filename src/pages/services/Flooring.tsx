@@ -1,4 +1,5 @@
 import ServicePageLayout from "@/components/ServicePageLayout";
+import aiFlooringHero from "@/assets/ai-flooring-hero.jpg";
 import decking1 from "@/assets/decking1.jpg";
 import decking2 from "@/assets/decking2.jpg";
 import decking3 from "@/assets/decking3.jpg";
@@ -15,7 +16,7 @@ export default function Flooring() {
     <ServicePageLayout
       title="Flooring & Decking"
       subtitle="Flooring"
-      heroImage={decking1}
+      heroImage={aiFlooringHero}
       relatedServices={related}
     >
       <div className="max-w-4xl mx-auto">

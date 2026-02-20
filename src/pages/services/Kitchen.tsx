@@ -1,4 +1,5 @@
 import ServicePageLayout from "@/components/ServicePageLayout";
+import aiKitchenHero from "@/assets/ai-kitchen-hero.jpg";
 import kitchenImg from "@/assets/kitchen.jpg";
 import cupboardsImg from "@/assets/cupboards2.jpg";
 import walkinImg from "@/assets/walkin_closet.jpg";
@@ -16,7 +17,7 @@ export default function Kitchen() {
     <ServicePageLayout
       title="Kitchen & Built-In Cupboards"
       subtitle="Kitchen & Cupboards"
-      heroImage={kitchenImg}
+      heroImage={aiKitchenHero}
       relatedServices={related}
     >
       <div className="max-w-4xl mx-auto space-y-14">

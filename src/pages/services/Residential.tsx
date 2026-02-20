@@ -1,4 +1,5 @@
 import ServicePageLayout from "@/components/ServicePageLayout";
+import aiResidentialHero from "@/assets/ai-residential-hero.jpg";
 import residentialImg from "@/assets/residential.jpg";
 
 const related = [
@@ -14,7 +15,7 @@ export default function Residential() {
     <ServicePageLayout
       title="Residential Building, Renovations and Remodeling"
       subtitle="Residential"
-      heroImage={residentialImg}
+      heroImage={aiResidentialHero}
       relatedServices={related}
     >
       <div className="max-w-4xl mx-auto">

@@ -1,5 +1,5 @@
 import ServicePageLayout from "@/components/ServicePageLayout";
-
+import aiCommercialHero from "@/assets/ai-commercial-hero.jpg";
 import office1Img from "@/assets/project-office1.jpg";
 import office2Img from "@/assets/project-office2.jpg";
 import office3Img from "@/assets/project-office3.jpg";
@@ -18,7 +18,7 @@ export default function Commercial() {
     <ServicePageLayout
       title="Commercial Building, Renovations and Remodeling"
       subtitle="Commercial"
-      heroImage={office4Img}
+      heroImage={aiCommercialHero}
       relatedServices={related}
     >
       <div className="max-w-4xl mx-auto space-y-10">

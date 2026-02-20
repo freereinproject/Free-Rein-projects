@@ -1,4 +1,5 @@
 import ServicePageLayout from "@/components/ServicePageLayout";
+import aiWindowsHero from "@/assets/ai-windows-hero.jpg";
 import windowsImg from "@/assets/windows.jpg";
 
 const related = [
@@ -13,7 +14,7 @@ export default function Windows() {
     <ServicePageLayout
       title="Windows & Window Coverings"
       subtitle="Windows"
-      heroImage={windowsImg}
+      heroImage={aiWindowsHero}
       relatedServices={related}
     >
       <div className="max-w-4xl mx-auto space-y-14">
