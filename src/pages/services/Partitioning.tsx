@@ -1,4 +1,5 @@
 import ServicePageLayout from "@/components/ServicePageLayout";
+import aiPartitioningHero from "@/assets/ai-partitioning-hero.jpg";
 import partitioningImg from "@/assets/partitioning.jpg";
 import doorImg from "@/assets/door.jpg";
 
@@ -14,7 +15,7 @@ export default function Partitioning() {
     <ServicePageLayout
       title="Partitioning, Walling & Doors"
       subtitle="Partitioning"
-      heroImage={partitioningImg}
+      heroImage={aiPartitioningHero}
       relatedServices={related}
     >
       <div className="max-w-4xl mx-auto space-y-14">

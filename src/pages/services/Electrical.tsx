@@ -1,4 +1,5 @@
 import ServicePageLayout from "@/components/ServicePageLayout";
+import aiElectricalHero from "@/assets/ai-electrical-hero.jpg";
 import electricalImg from "@/assets/electrical.jpg";
 import plumbingImg from "@/assets/plumbing.jpg";
 
@@ -14,7 +15,7 @@ export default function Electrical() {
     <ServicePageLayout
       title="Electrical & Plumbing"
       subtitle="Electrical & Plumbing"
-      heroImage={electricalImg}
+      heroImage={aiElectricalHero}
       relatedServices={related}
     >
       <div className="max-w-4xl mx-auto space-y-14">

@@ -1,4 +1,5 @@
 import ServicePageLayout from "@/components/ServicePageLayout";
+import aiCeilingsHero from "@/assets/ai-ceilings-hero.jpg";
 import ceilingImg from "@/assets/ceiling.jpg";
 import roofTileImg from "@/assets/project-roof-tile.jpg";
 import roofMetalImg from "@/assets/project-roof-metal.jpg";
@@ -15,7 +16,7 @@ export default function Ceilings() {
     <ServicePageLayout
       title="Ceilings & Roofing"
       subtitle="Ceilings & Roofing"
-      heroImage={roofMetalImg}
+      heroImage={aiCeilingsHero}
       relatedServices={related}
     >
       <div className="max-w-4xl mx-auto space-y-14">
