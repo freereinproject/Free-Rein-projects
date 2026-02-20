@@ -139,13 +139,13 @@ export default function Index() {
       </section>
 
       {/* ─── STATS BAR ─── */}
-      <section className="bg-[hsl(var(--primary))] py-8 bg-primary-foreground text-primary">
+      <section className="bg-primary py-8">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {stats.map((stat) =>
             <div key={stat.label} className="group">
-                <div className="text-4xl font-black leading-none text-primary-foreground">{stat.value}</div>
-                <div className="text-xs mt-2 uppercase tracking-widest font-medium text-primary-foreground">{stat.label}</div>
+                <div className="text-4xl font-black leading-none text-white">{stat.value}</div>
+                <div className="text-xs mt-2 uppercase tracking-widest font-medium text-white/80">{stat.label}</div>
               </div>
             )}
           </div>
