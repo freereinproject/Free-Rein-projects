@@ -17,42 +17,42 @@
     --popover: 0 0% 100%;
     --popover-foreground: 220 20% 10%;
 
-    /* Primary: Turquoise (matching logo) */
-    --primary: 181 55% 41%;
-    --primary-foreground: 0 0% 100%;
+    /* Primary: #A4DCCF (matching logo) */
+    --primary: 166 45% 75%;
+    --primary-foreground: 166 40% 15%;
 
-    /* Secondary: Light turquoise tint */
-    --secondary: 181 30% 92%;
-    --secondary-foreground: 181 55% 20%;
+    /* Secondary: Light tint */
+    --secondary: 166 35% 93%;
+    --secondary-foreground: 166 40% 20%;
 
-    --muted: 220 15% 96%;
+    --muted: 166 15% 96%;
     --muted-foreground: 220 10% 50%;
 
-    /* Accent: Turquoise light for highlights */
-    --accent: 181 55% 41%;
-    --accent-foreground: 0 0% 100%;
+    /* Accent: same as primary */
+    --accent: 166 45% 75%;
+    --accent-foreground: 166 40% 15%;
 
     --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 220 13% 90%;
     --input: 220 13% 90%;
-    --ring: 181 55% 41%;
+    --ring: 166 45% 75%;
 
     --radius: 0.75rem;
 
     /* Brand tokens */
-    --brand-teal: 181 55% 41%;
-    --brand-teal-light: 181 45% 55%;
-    --brand-teal-muted: 181 30% 92%;
+    --brand-teal: 166 45% 75%;
+    --brand-teal-light: 166 45% 83%;
+    --brand-teal-muted: 166 35% 93%;
     --brand-dark: 220 30% 8%;
-    --brand-warm: 181 55% 41%;
-    --brand-warm-dark: 181 55% 32%;
-    --brand-neutral: 220 15% 97%;
+    --brand-warm: 166 45% 75%;
+    --brand-warm-dark: 166 45% 62%;
+    --brand-neutral: 166 15% 97%;
 
-    --hero-overlay: linear-gradient(135deg, hsla(220,30%,5%,0.85) 0%, hsla(181,55%,15%,0.55) 100%);
-    --card-shadow: 0 2px 20px -4px hsla(181,55%,20%,0.10);
-    --card-shadow-hover: 0 16px 48px -8px hsla(181,55%,20%,0.22);
+    --hero-overlay: linear-gradient(135deg, hsla(220,30%,5%,0.85) 0%, hsla(166,45%,15%,0.55) 100%);
+    --card-shadow: 0 2px 20px -4px hsla(166,45%,20%,0.10);
+    --card-shadow-hover: 0 16px 48px -8px hsla(166,45%,20%,0.22);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -71,19 +71,19 @@
     --card-foreground: 40 15% 95%;
     --popover: 220 18% 10%;
     --popover-foreground: 40 15% 95%;
-    --primary: 181 50% 45%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 166 45% 65%;
+    --primary-foreground: 166 40% 10%;
     --secondary: 220 18% 15%;
     --secondary-foreground: 40 15% 90%;
     --muted: 220 18% 15%;
     --muted-foreground: 220 10% 55%;
-    --accent: 181 50% 45%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 166 45% 65%;
+    --accent-foreground: 166 40% 10%;
     --destructive: 0 63% 31%;
     --destructive-foreground: 0 0% 98%;
     --border: 220 18% 18%;
     --input: 220 18% 18%;
-    --ring: 181 50% 45%;
+    --ring: 166 45% 65%;
   }
 }
 
