@@ -47,7 +47,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <img alt="FreeRein Projects" className="h-14 w-auto mb-5 object-contain brightness-0 invert" src={logo} />
+            <img alt="FreeRein Projects" className="h-14 w-auto mb-5 object-contain" src={logo} />
             <p className="text-white/50 text-sm leading-relaxed mt-4 font-light">
               Professional home and commercial remodeling across South Africa — delivering quality craftsmanship on every project.
             </p>
