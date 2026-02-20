@@ -47,7 +47,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <img alt="FreeRein Projects" className="h-14 w-auto mb-5 object-contain" src={logo} />
+            <img alt="FreeRein Projects" className="h-20 w-auto mb-5 object-contain" src={logo} />
             <p className="text-white/50 text-sm leading-relaxed mt-4 font-light">
               Professional home and commercial remodeling across South Africa — delivering quality craftsmanship on every project.
             </p>
@@ -127,18 +127,15 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom Bar with Logo */}
+      {/* Bottom Bar */}
       <div className="border-t border-white/8">
-        <div className="container mx-auto px-6 py-8 flex flex-col items-center gap-4">
-          <img src={logo} alt="FreeRein Projects" className="h-16 w-auto opacity-80" />
-          <div className="flex flex-col md:flex-row justify-between items-center gap-3 w-full">
-            <p className="text-white/30 text-xs">
-              © {new Date().getFullYear()} FreeRein Projects. All rights reserved.
-            </p>
-            <p className="text-white/30 text-xs tracking-widest">
-              REMODEL · REFURBISH · REDESIGN
-            </p>
-          </div>
+        <div className="container mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-3">
+          <p className="text-white/30 text-xs">
+            © {new Date().getFullYear()} FreeRein Projects. All rights reserved.
+          </p>
+          <p className="text-white/30 text-xs tracking-widest">
+            REMODEL · REFURBISH · REDESIGN
+          </p>
         </div>
       </div>
     </footer>);
