@@ -76,7 +76,7 @@ export default function Kitchen() {
               </ul>
             </div>
             <img src={walkinImg} alt="Walk-in closet" className="rounded-2xl w-full h-40 object-cover shadow-lg" />
-            <img src={walkin2Img} alt="Walk-in wardrobe" className="rounded-2xl w-full h-40 object-cover shadow-lg" />
+            
           </div>
         </div>
 
