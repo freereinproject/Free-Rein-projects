@@ -11,6 +11,8 @@ import office2Img from "@/assets/project-office2.jpg";
 import office3Img from "@/assets/project-office3.jpg";
 import office4Img from "@/assets/project-office4.jpg";
 import roofMetalImg from "@/assets/project-roof-metal.jpg";
+import craighall1Img from "@/assets/decking-craighall1.jpg";
+import craighall2Img from "@/assets/decking-craighall2.jpg";
 import { MessageCircle, ArrowRight } from "lucide-react";
 
 const projects = [
@@ -24,6 +26,8 @@ const projects = [
   { img: roofTileImg, title: "Roof Tiling Project", category: "Ceilings & Roofing", desc: "Complete roof tiling with quality materials and professional installation." },
   { img: roofMetalImg, title: "Metal Roof Installation", category: "Ceilings & Roofing", desc: "Durable corrugated metal roof installation — Cape Town." },
   { img: windowsImg, title: "Window Frame Installation", category: "Windows & Coverings", desc: "Custom window frames fitted with precision and care." },
+  { img: craighall1Img, title: "Commercial Decking – Craighall", category: "Flooring & Decking", desc: "Composite decking platform and steps for a commercial storefront in Craighall." },
+  { img: craighall2Img, title: "Storefront Deck Build – Craighall", category: "Flooring & Decking", desc: "Full exterior composite deck installation with integrated staircase for retail premises." },
 ];
 
 const categories = ["All", ...Array.from(new Set(projects.map((p) => p.category)))];
