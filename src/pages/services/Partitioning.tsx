@@ -2,6 +2,7 @@ import ServicePageLayout from "@/components/ServicePageLayout";
 import aiPartitioningHero from "@/assets/ai-partitioning-hero.jpg";
 import partitioningImg from "@/assets/partitioning.jpg";
 import doorImg from "@/assets/door.jpg";
+import securityGateImg from "@/assets/security-gate.jpg";
 
 const related = [
   { label: "Commercial", path: "/services/commercial" },
@@ -79,8 +80,9 @@ export default function Partitioning() {
               From precise measurements and expert installation to finishing touches, we handle every step with care, ensuring a flawless result that lasts. With our attention to detail and commitment to quality, you can trust us to create doors that look great and perform even better.
             </p>
           </div>
-          <div>
-            <img src={doorImg} alt="Doors" className="rounded-2xl w-full h-52 object-cover shadow-lg" />
+          <div className="space-y-4">
+            <img src={doorImg} alt="Doors" className="rounded-2xl w-full h-48 object-cover shadow-lg" />
+            <img src={securityGateImg} alt="Security gate installation" className="rounded-2xl w-full h-48 object-cover shadow-lg" />
           </div>
         </div>
 
