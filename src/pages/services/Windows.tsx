@@ -1,6 +1,8 @@
 import ServicePageLayout from "@/components/ServicePageLayout";
 import aiWindowsHero from "@/assets/ai-windows-hero.jpg";
 import windowsImg from "@/assets/windows.jpg";
+import rollerBlind1 from "@/assets/roller-blind1.jpg";
+import rollerBlind2 from "@/assets/roller-blind2.jpg";
 
 const related = [
   { label: "Residential", path: "/services/residential" },
@@ -56,6 +58,8 @@ export default function Windows() {
             </p>
           </div>
           <div className="space-y-4">
+            <img src={rollerBlind1} alt="Roller blinds" className="rounded-2xl w-full h-48 object-cover shadow-lg" />
+            <img src={rollerBlind2} alt="Roller blinds" className="rounded-2xl w-full h-48 object-cover shadow-lg" />
             <div className="bg-primary text-primary-foreground rounded-2xl p-6">
               <h3 className="font-bold mb-3">Window Coverings</h3>
               <ul className="space-y-2 text-primary-foreground/85 text-sm">
