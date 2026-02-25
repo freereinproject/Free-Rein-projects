@@ -13,6 +13,7 @@ import office4Img from "@/assets/project-office4.jpg";
 import roofMetalImg from "@/assets/project-roof-metal.jpg";
 import craighall1Img from "@/assets/decking-craighall1.jpg";
 import craighall2Img from "@/assets/decking-craighall2.jpg";
+import foldingDoorImg from "@/assets/folding-door.jpg";
 import { MessageCircle, ArrowRight } from "lucide-react";
 
 const projects = [
@@ -23,6 +24,7 @@ const projects = [
   { img: cupboards2Img, title: "Built-In Cupboard Installation", category: "Kitchen & Cupboards", desc: "Custom built-in cupboards with stylish finishes." },
   { img: walkin2Img, title: "Walk-In Wardrobe", category: "Kitchen & Cupboards", desc: "Elegant walk-in wardrobe with full hanging and shelving solutions." },
   { img: doorImg, title: "Custom Door Installation", category: "Doors", desc: "High-quality door installations with premium finishes." },
+  { img: foldingDoorImg, title: "Wooden Folding Door", category: "Doors", desc: "Elegant wooden folding door installation with rich walnut finish for interior spaces." },
   { img: roofTileImg, title: "Roof Tiling Project", category: "Ceilings & Roofing", desc: "Complete roof tiling with quality materials and professional installation." },
   { img: roofMetalImg, title: "Metal Roof Installation", category: "Ceilings & Roofing", desc: "Durable corrugated metal roof installation — Cape Town." },
   { img: windowsImg, title: "Window Frame Installation", category: "Windows & Coverings", desc: "Custom window frames fitted with precision and care." },
