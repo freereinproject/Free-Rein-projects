@@ -4,6 +4,7 @@ import decking1 from "@/assets/decking1.jpg";
 import decking2 from "@/assets/decking2.jpg";
 import decking3 from "@/assets/decking3.jpg";
 import craighall1 from "@/assets/decking-craighall1.jpg";
+import compositeSample from "@/assets/composite-board-sample.jpg";
 
 const related = [
   { label: "Outdoor Fixtures & Fittings", path: "/services/outdoor-fixtures" },
@@ -82,6 +83,11 @@ export default function Flooring() {
             <img
               src={decking3}
               alt="Decking detail view"
+              className="rounded-2xl w-full h-44 object-cover shadow-lg"
+            />
+            <img
+              src={compositeSample}
+              alt="Composite decking board sample"
               className="rounded-2xl w-full h-44 object-cover shadow-lg"
             />
             <div className="bg-primary text-primary-foreground rounded-2xl p-6">
