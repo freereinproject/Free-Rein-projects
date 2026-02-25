@@ -3,6 +3,7 @@ import aiFlooringHero from "@/assets/ai-flooring-hero.jpg";
 import decking1 from "@/assets/decking1.jpg";
 import decking2 from "@/assets/decking2.jpg";
 import decking3 from "@/assets/decking3.jpg";
+import craighall1 from "@/assets/decking-craighall1.jpg";
 
 const related = [
   { label: "Outdoor Fixtures & Fittings", path: "/services/outdoor-fixtures" },
@@ -68,6 +69,11 @@ export default function Flooring() {
           </div>
 
           <div className="space-y-6">
+            <img
+              src={craighall1}
+              alt="Commercial decking – Craighall"
+              className="rounded-2xl w-full h-52 object-cover shadow-lg"
+            />
             <img
               src={decking2}
               alt="Composite decking installation"
