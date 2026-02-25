@@ -17,6 +17,12 @@ import foldingDoorImg from "@/assets/folding-door.jpg";
 import rollerBlind1Img from "@/assets/roller-blind1.jpg";
 import rollerBlind2Img from "@/assets/roller-blind2.jpg";
 import securityGateImg from "@/assets/security-gate.jpg";
+import glassEnclosureImg from "@/assets/glass-enclosure.jpg";
+import shuttersCornerImg from "@/assets/shutters-corner.jpg";
+import shuttersBedroomImg from "@/assets/shutters-bedroom.jpg";
+import shuttersArchedImg from "@/assets/shutters-arched.jpg";
+import shuttersBathroomImg from "@/assets/shutters-bathroom.jpg";
+import shuttersKitchenImg from "@/assets/shutters-kitchen.jpg";
 import { MessageCircle, ArrowRight } from "lucide-react";
 
 const projects = [
@@ -34,6 +40,12 @@ const projects = [
   { img: windowsImg, title: "Window Frame Installation", category: "Windows & Coverings", desc: "Custom window frames fitted with precision and care." },
   { img: rollerBlind1Img, title: "Roller Blinds", category: "Windows & Coverings", desc: "Custom roller blind installation with clean lines and a modern fabric finish." },
   { img: rollerBlind2Img, title: "Roller Blinds", category: "Windows & Coverings", desc: "Full-width roller blinds fitted for privacy and light control in residential spaces." },
+  { img: glassEnclosureImg, title: "Frameless Glass Enclosure", category: "Windows & Coverings", desc: "Full frameless glass patio enclosure for a modern residential home." },
+  { img: shuttersCornerImg, title: "Corner Window Shutters", category: "Windows & Coverings", desc: "Custom plantation shutters fitted to a corner window for light control and privacy." },
+  { img: shuttersBedroomImg, title: "Bedroom Plantation Shutters", category: "Windows & Coverings", desc: "Full-width plantation shutters with feature wallpaper in a modern bedroom." },
+  { img: shuttersArchedImg, title: "Arched Window Shutters", category: "Windows & Coverings", desc: "Custom arched plantation shutters adding character to a stylish bedroom." },
+  { img: shuttersBathroomImg, title: "Bathroom Window Shutters", category: "Windows & Coverings", desc: "Corner plantation shutters in a luxury bathroom with modern finishes." },
+  { img: shuttersKitchenImg, title: "Kitchen Window Shutters", category: "Windows & Coverings", desc: "Plantation shutters and venetian blinds in an open-plan kitchen and dining area." },
   { img: craighall1Img, title: "Commercial Decking – Craighall", category: "Flooring & Decking", desc: "Composite decking platform and steps for a commercial storefront in Craighall." },
   { img: craighall2Img, title: "Storefront Deck Build – Craighall", category: "Flooring & Decking", desc: "Full exterior composite deck installation with integrated staircase for retail premises." },
 ];
