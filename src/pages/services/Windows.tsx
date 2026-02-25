@@ -54,29 +54,35 @@ export default function Windows() {
         <div className="border-t border-border" />
 
         {/* Window Coverings */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
-          <div className="lg:col-span-2 space-y-5">
-            <h2 className="text-2xl font-bold text-foreground">Stylish Window Coverings for Every Space</h2>
-            <div className="h-0.5 w-12 bg-primary rounded-full" />
-            <p className="text-muted-foreground leading-relaxed">
-              Enhance your rooms with blinds, shutters, or custom window coverings designed to fit your style and needs. Our team handles precise measurements, expert installation, and finishing touches, ensuring comfort, privacy, and lasting quality.
-            </p>
+        <div className="space-y-8">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
+            <div className="lg:col-span-2 space-y-5">
+              <h2 className="text-2xl font-bold text-foreground">Stylish Window Coverings for Every Space</h2>
+              <div className="h-0.5 w-12 bg-primary rounded-full" />
+              <p className="text-muted-foreground leading-relaxed">
+                Enhance your rooms with blinds, shutters, or custom window coverings designed to fit your style and needs. Our team handles precise measurements, expert installation, and finishing touches, ensuring comfort, privacy, and lasting quality.
+              </p>
+            </div>
+            <div>
+              <div className="bg-primary text-primary-foreground rounded-2xl p-6">
+                <h3 className="font-bold mb-3">Window Coverings</h3>
+                <ul className="space-y-2 text-primary-foreground/85 text-sm">
+                  <li>✓ Roller and venetian blinds</li>
+                  <li>✓ Wooden and faux shutters</li>
+                  <li>✓ Curtain tracks and rails</li>
+                  <li>✓ Custom-made coverings</li>
+                  <li>✓ Motorised blind systems</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div className="space-y-4">
+
+          {/* Photo Gallery */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <img src={rollerBlind1} alt="Roller blinds" className="rounded-2xl w-full h-48 object-cover shadow-lg" />
             <img src={shuttersCorner} alt="Corner plantation shutters" className="rounded-2xl w-full h-48 object-cover shadow-lg" />
             <img src={shuttersArched} alt="Arched window shutters" className="rounded-2xl w-full h-48 object-cover shadow-lg" />
             <img src={shuttersBathroom} alt="Bathroom shutters" className="rounded-2xl w-full h-48 object-cover shadow-lg" />
-            <div className="bg-primary text-primary-foreground rounded-2xl p-6">
-              <h3 className="font-bold mb-3">Window Coverings</h3>
-              <ul className="space-y-2 text-primary-foreground/85 text-sm">
-                <li>✓ Roller and venetian blinds</li>
-                <li>✓ Wooden and faux shutters</li>
-                <li>✓ Curtain tracks and rails</li>
-                <li>✓ Custom-made coverings</li>
-                <li>✓ Motorised blind systems</li>
-              </ul>
-            </div>
           </div>
         </div>
 
