@@ -23,6 +23,7 @@ import shuttersBedroomImg from "@/assets/shutters-bedroom.jpg";
 import shuttersArchedImg from "@/assets/shutters-arched.jpg";
 import shuttersBathroomImg from "@/assets/shutters-bathroom.jpg";
 import shuttersKitchenImg from "@/assets/shutters-kitchen.jpg";
+import officeKitchenetteImg from "@/assets/office-kitchenette.jpg";
 import { MessageCircle, ArrowRight } from "lucide-react";
 
 const projects = [
@@ -32,6 +33,7 @@ const projects = [
   { img: office3Img, title: "Executive Office Design", category: "Commercial", desc: "Executive office with brick accent wall, dark feature walls and custom joinery." },
   { img: cupboards2Img, title: "Built-In Cupboard Installation", category: "Kitchen & Cupboards", desc: "Custom built-in cupboards with stylish finishes." },
   { img: walkin2Img, title: "Walk-In Wardrobe", category: "Kitchen & Cupboards", desc: "Elegant walk-in wardrobe with full hanging and shelving solutions." },
+  { img: officeKitchenetteImg, title: "Office Kitchenette", category: "Kitchen & Cupboards", desc: "Compact office kitchenette with light wood cabinetry, black countertops and built-in storage." },
   { img: doorImg, title: "Custom Door Installation", category: "Doors", desc: "High-quality door installations with premium finishes." },
   { img: foldingDoorImg, title: "Wooden Folding Door", category: "Doors", desc: "Elegant wooden folding door installation with rich walnut finish for interior spaces." },
   { img: securityGateImg, title: "Security Gate Installation", category: "Doors", desc: "Custom steel security gate with decorative diamond pattern for residential entrance." },

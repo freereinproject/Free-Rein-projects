@@ -4,6 +4,7 @@ import kitchenImg from "@/assets/kitchen.jpg";
 import cupboardsImg from "@/assets/cupboards2.jpg";
 import walkinImg from "@/assets/walkin_closet.jpg";
 import walkin2Img from "@/assets/project-walkin2.jpg";
+import officeKitchenette from "@/assets/office-kitchenette.jpg";
 
 const related = [
   { label: "Residential", path: "/services/residential" },
@@ -44,6 +45,7 @@ export default function Kitchen() {
           </div>
           <div className="space-y-4">
             <img src={kitchenImg} alt="Kitchen" className="rounded-2xl w-full h-48 object-cover shadow-lg" />
+            <img src={officeKitchenette} alt="Office kitchenette" className="rounded-2xl w-full h-40 object-cover shadow-lg" />
             <img src={cupboardsImg} alt="Cupboards" className="rounded-2xl w-full h-40 object-cover shadow-lg" />
           </div>
         </div>
