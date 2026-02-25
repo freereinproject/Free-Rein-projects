@@ -2,17 +2,8 @@ import Layout from "@/components/Layout";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import doorImg from "@/assets/door.jpg";
-import partitioningImg from "@/assets/partitioning.jpg";
-import kitchenImg from "@/assets/kitchen.jpg";
 import windowsImg from "@/assets/windows.jpg";
-import outdoorImg from "@/assets/outdoor.jpg";
-import ceilingImg from "@/assets/ceiling.jpg";
-import electricalImg from "@/assets/electrical.jpg";
-import plumbingImg from "@/assets/plumbing.jpg";
-import residentialImg from "@/assets/residential.jpg";
 import cupboards2Img from "@/assets/cupboards2.jpg";
-import cupboards3Img from "@/assets/cupboards3.jpg";
-import walkinImg from "@/assets/walkin_closet.jpg";
 import roofTileImg from "@/assets/project-roof-tile.jpg";
 import walkin2Img from "@/assets/project-walkin2.jpg";
 import office1Img from "@/assets/project-office1.jpg";
@@ -20,12 +11,6 @@ import office2Img from "@/assets/project-office2.jpg";
 import office3Img from "@/assets/project-office3.jpg";
 import office4Img from "@/assets/project-office4.jpg";
 import roofMetalImg from "@/assets/project-roof-metal.jpg";
-import flooring1Img from "@/assets/flooring1.jpg";
-import flooring2Img from "@/assets/flooring2.jpg";
-import flooring3Img from "@/assets/flooring3.jpg";
-import aiKitchen2Img from "@/assets/ai-kitchen2.jpg";
-import aiCommercial2Img from "@/assets/ai-commercial2.jpg";
-import aiFlooring1Img from "@/assets/ai-flooring1.jpg";
 import { MessageCircle, ArrowRight } from "lucide-react";
 
 const projects = [
@@ -33,27 +18,12 @@ const projects = [
   { img: office1Img, title: "Office Branded Wall Feature", category: "Commercial", desc: "Custom feature wall with brand identity, suspended ceiling and professional lighting." },
   { img: office2Img, title: "Modern Office Renovation", category: "Commercial", desc: "Complete office renovation with custom desk, feature walls and professional finishes." },
   { img: office3Img, title: "Executive Office Design", category: "Commercial", desc: "Executive office with brick accent wall, dark feature walls and custom joinery." },
-  { img: aiCommercial2Img, title: "Corporate Boardroom", category: "Commercial", desc: "Premium boardroom with glass partitions, executive furniture and professional lighting." },
-  { img: residentialImg, title: "Residential Home Upgrade", category: "Residential", desc: "Full home renovation with upgraded interiors throughout." },
-  { img: kitchenImg, title: "Modern Kitchen Remodel", category: "Kitchen & Cupboards", desc: "Custom kitchen design with high-end finishes and fittings." },
-  { img: aiKitchen2Img, title: "Luxury Kitchen Design", category: "Kitchen & Cupboards", desc: "Marble countertops, dark cabinetry and pendant lighting for a premium finish." },
   { img: cupboards2Img, title: "Built-In Cupboard Installation", category: "Kitchen & Cupboards", desc: "Custom built-in cupboards with stylish finishes." },
-  { img: cupboards3Img, title: "Custom Storage Solutions", category: "Kitchen & Cupboards", desc: "Tailored storage cupboards built to maximize space." },
-  { img: walkinImg, title: "Walk-In Closet", category: "Kitchen & Cupboards", desc: "Luxurious walk-in closet designed to perfection." },
   { img: walkin2Img, title: "Walk-In Wardrobe", category: "Kitchen & Cupboards", desc: "Elegant walk-in wardrobe with full hanging and shelving solutions." },
-  { img: partitioningImg, title: "Office Partitioning", category: "Partitioning & Walling", desc: "Smart office partitioning creating functional workspaces." },
   { img: doorImg, title: "Custom Door Installation", category: "Doors", desc: "High-quality door installations with premium finishes." },
-  { img: ceilingImg, title: "Decorative Ceiling Installation", category: "Ceilings & Roofing", desc: "Elegant ceiling solution elevating the room's character." },
   { img: roofTileImg, title: "Roof Tiling Project", category: "Ceilings & Roofing", desc: "Complete roof tiling with quality materials and professional installation." },
   { img: roofMetalImg, title: "Metal Roof Installation", category: "Ceilings & Roofing", desc: "Durable corrugated metal roof installation — Cape Town." },
-  { img: electricalImg, title: "Electrical Installation", category: "Electrical & Plumbing", desc: "Complete electrical installation with Certificate of Compliance." },
-  { img: plumbingImg, title: "Plumbing Renovation", category: "Electrical & Plumbing", desc: "Full bathroom plumbing renovation and installation." },
   { img: windowsImg, title: "Window Frame Installation", category: "Windows & Coverings", desc: "Custom window frames fitted with precision and care." },
-  { img: outdoorImg, title: "Outdoor Entertainment Area", category: "Outdoor Fixtures", desc: "Custom outdoor space designed for entertaining." },
-  { img: flooring1Img, title: "Composite Deck Installation", category: "Floor Installations", desc: "Professional composite decking installed for a modern outdoor space." },
-  { img: flooring2Img, title: "Feature Pillar Cladding", category: "Floor Installations", desc: "Custom composite cladding on structural pillars for a premium finish." },
-  { img: flooring3Img, title: "Outdoor Composite Flooring", category: "Floor Installations", desc: "Durable composite floor boards installed across a large commercial outdoor area." },
-  { img: aiFlooring1Img, title: "Hardwood Floor Installation", category: "Floor Installations", desc: "Beautiful engineered hardwood floor installation bringing warmth to modern living spaces." },
 ];
 
 const categories = ["All", ...Array.from(new Set(projects.map((p) => p.category)))];
