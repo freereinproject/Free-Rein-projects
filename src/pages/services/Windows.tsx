@@ -3,6 +3,10 @@ import aiWindowsHero from "@/assets/ai-windows-hero.jpg";
 import windowsImg from "@/assets/windows.jpg";
 import rollerBlind1 from "@/assets/roller-blind1.jpg";
 import rollerBlind2 from "@/assets/roller-blind2.jpg";
+import glassEnclosure from "@/assets/glass-enclosure.jpg";
+import shuttersCorner from "@/assets/shutters-corner.jpg";
+import shuttersArched from "@/assets/shutters-arched.jpg";
+import shuttersBathroom from "@/assets/shutters-bathroom.jpg";
 
 const related = [
   { label: "Residential", path: "/services/residential" },
@@ -41,8 +45,9 @@ export default function Windows() {
               ))}
             </div>
           </div>
-          <div>
+          <div className="space-y-4">
             <img src={windowsImg} alt="Windows" className="rounded-2xl w-full h-56 object-cover shadow-lg" />
+            <img src={glassEnclosure} alt="Frameless glass enclosure" className="rounded-2xl w-full h-48 object-cover shadow-lg" />
           </div>
         </div>
 
@@ -59,7 +64,9 @@ export default function Windows() {
           </div>
           <div className="space-y-4">
             <img src={rollerBlind1} alt="Roller blinds" className="rounded-2xl w-full h-48 object-cover shadow-lg" />
-            <img src={rollerBlind2} alt="Roller blinds" className="rounded-2xl w-full h-48 object-cover shadow-lg" />
+            <img src={shuttersCorner} alt="Corner plantation shutters" className="rounded-2xl w-full h-48 object-cover shadow-lg" />
+            <img src={shuttersArched} alt="Arched window shutters" className="rounded-2xl w-full h-48 object-cover shadow-lg" />
+            <img src={shuttersBathroom} alt="Bathroom shutters" className="rounded-2xl w-full h-48 object-cover shadow-lg" />
             <div className="bg-primary text-primary-foreground rounded-2xl p-6">
               <h3 className="font-bold mb-3">Window Coverings</h3>
               <ul className="space-y-2 text-primary-foreground/85 text-sm">
