@@ -59,7 +59,7 @@ export default function Commercial() {
               <h3 className="font-bold text-lg mb-3">Why Choose Us</h3>
               <ul className="space-y-2 text-primary-foreground/85 text-sm">
                 <li>✓ Minimal operational disruption</li>
-                <li>✓ Certified and insured professionals</li>
+                <li>✓ Certified professionals</li>
                 <li>✓ On-time project delivery</li>
                 <li>✓ Transparent, detailed quotes</li>
                 <li>✓ End-to-end project management</li>

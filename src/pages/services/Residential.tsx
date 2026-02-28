@@ -63,7 +63,7 @@ export default function Residential() {
                 <li>✓ Clear communication throughout</li>
                 <li>✓ Quality craftsmanship</li>
                 <li>✓ On-time and on-budget delivery</li>
-                <li>✓ Fully licensed and insured</li>
+                <li>✓ Fully licensed professionals</li>
                 <li>✓ Personalised service for every home</li>
               </ul>
             </div>
