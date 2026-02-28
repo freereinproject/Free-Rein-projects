@@ -65,8 +65,9 @@ package.json
 
 ## 👨‍💻 Developer
 
-Built and deployed by Matthew.
+Designed, developed, and deployed by Matthew.
 
-```
+Focused on building modern, responsive, and performance-optimized websites for real businesses.
 
+For development inquiries or collaborations, feel free to reach out.
 
