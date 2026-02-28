@@ -38,7 +38,7 @@ const whyChooseUs = [
 {
   icon: Users,
   title: "Experienced Team",
-  desc: "Our certified professionals bring years of hands-on experience across residential and commercial projects. Fully insured, skilled across all trades.",
+  desc: "Our certified professionals bring years of hands-on experience across residential and commercial projects. Skilled across all trades.",
   highlight: "Certified Professionals"
 }];
 
@@ -172,7 +172,7 @@ export default function Index() {
 
               {/* Prominent checklist */}
               <div className="space-y-3 mb-10">
-                {["Fully Insured & Certified", "Transparent, Itemised Quotes", "On-Time Project Delivery", "Residential & Commercial Experts"].map((item) =>
+                {["Fully Certified", "Transparent, Itemised Quotes", "On-Time Project Delivery", "Residential & Commercial Experts"].map((item) =>
                 <div key={item} className="flex items-center gap-3">
                     <div className="w-6 h-6 rounded-full bg-primary flex items-center justify-center shrink-0">
                       <CheckCircle className="w-3.5 h-3.5 text-primary-foreground" />
