@@ -28,8 +28,8 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build
-        # We pass the repository name to Vite's base to handle GitHub Pages subpaths
-        run: npx vite build --base=/${{ github.event.repository.name }}/
+        # We pass "/" to Vite's base since we are using a custom domain
+        run: npx vite build --base=/
       - name: Copy index.html to 404.html
         # This fixes the SPA routing issue on GitHub Pages for nested routes
         run: cp dist/index.html dist/404.html
