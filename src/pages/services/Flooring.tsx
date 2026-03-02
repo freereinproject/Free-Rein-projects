@@ -76,11 +76,6 @@ export default function Flooring() {
               className="rounded-2xl w-full h-52 object-cover shadow-lg"
             />
             <img
-              src={decking2}
-              alt="Composite decking installation"
-              className="rounded-2xl w-full h-52 object-cover shadow-lg"
-            />
-            <img
               src={decking3}
               alt="Decking detail view"
               className="rounded-2xl w-full h-44 object-cover shadow-lg"
